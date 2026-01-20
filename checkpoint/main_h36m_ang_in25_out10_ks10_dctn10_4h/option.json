@@ -1,0 +1,20 @@
+{
+    "exp": "main_h36m_ang_in25_out10_ks10_dctn10",
+    "is_eval": false,
+    "ckpt": "checkpoint/main_h36m_ang_in25_out10_ks10_dctn10",
+    "skip_rate": 1,
+    "skip_rate_test": 5,
+    "in_features": 48,
+    "num_stage": 12,
+    "d_model": 256,
+    "kernel_size": 10,
+    "input_n": 25,
+    "output_n": 10,
+    "dct_n": 10,
+    "lr_now": 0.0005,
+    "max_norm": 10000,
+    "epoch": 50,
+    "batch_size": 1024,
+    "test_batch_size": 1024,
+    "is_load": false
+}
